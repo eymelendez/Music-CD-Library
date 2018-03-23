@@ -5,7 +5,7 @@ to handle and manipulate the information entered by the user. The program can ad
 in the database, show the data of an album or show a list of all the information in the database.
 
 Credits:
-Edwin 
-Johnathan
-Wilfredo
-Cristian
+Edwin /
+Johnathan /
+Wilfredo /
+Cristian 
