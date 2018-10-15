@@ -111,7 +111,7 @@ public class MainMenuFrame extends JFrame
 		 * menuBar - Barra de Menu donde todos los menuItems se encuentran para el usuario escojer que quiere hacer, si quiere a~adir, modificar, display una linea nada mas 
 		 * o si quiere generar un reporte con todo los albums.
 		 */
-		JMenuBar menuBar = new JMenuBar();
+		JMenuBar menuBar = new JMenuBar(); // Here is the function ot do the File and Help bar
 		setJMenuBar(menuBar);
 		/**
 		 * 	File - Aqui estan los submenus para que cuando el usuario presione una de las opciones de Add, Modify, Display, Report, se ejecucten los programas de los otros frames.
@@ -134,7 +134,7 @@ public class MainMenuFrame extends JFrame
 		JMenuItem menuItem_1 = new JMenuItem("2. Modify CD Album");
 		menuItem_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				SearchFrame.main(null);
+				SearchFrame.main(null); // Executes the Search GUI Frame
 			}
 		});
 		menu.add(menuItem_1);
