@@ -7,7 +7,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-import net.proteanit.sql.DbUtils;
+import net.proteanit.sql.DbUtils;// This uses the swl stuff. Check if compatible.
 
 import javax.swing.JMenuBar;
 import javax.swing.JMenu;
@@ -16,10 +16,14 @@ import javax.swing.JOptionPane;
 
 import java.awt.event.ActionListener;
 import java.io.IOException;
+
+// ------------------- SQL Extension ------------------------------------
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.List;
+// ------------------ SQL Extension -------------------------------------
+
 import java.awt.event.ActionEvent;
 import javax.swing.GroupLayout;
 import javax.swing.GroupLayout.Alignment;
